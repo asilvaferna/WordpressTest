@@ -1,0 +1,80 @@
+[16-Oct-2017 08:58:35 UTC] PHP Fatal error:  Call to a member function isSuperuser() on a non-object in /home/ubuntu/workspace/phpmyadmin/libraries/check_user_privileges.lib.php on line 15
+[16-Oct-2017 08:58:35 UTC] PHP Stack trace:
+[16-Oct-2017 08:58:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/phpmyadmin/setup/index.php:0
+[16-Oct-2017 08:58:35 UTC] PHP   2. require() /home/ubuntu/workspace/phpmyadmin/setup/index.php:61
+[16-Oct-2017 08:58:35 UTC] PHP   3. PMA_Process_formset() /home/ubuntu/workspace/phpmyadmin/setup/frames/servers.inc.php:52
+[16-Oct-2017 08:58:35 UTC] PHP   4. PMA_generateHeader303() /home/ubuntu/workspace/phpmyadmin/setup/lib/form_processing.lib.php:35
+[16-Oct-2017 08:58:35 UTC] PHP   5. PMA\libraries\Response->response() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:0
+[16-Oct-2017 08:58:35 UTC] PHP   6. PMA\libraries\Response->_htmlResponse() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:432
+[16-Oct-2017 08:58:35 UTC] PHP   7. PMA\libraries\Response->_getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:273
+[16-Oct-2017 08:58:35 UTC] PHP   8. PMA\libraries\Header->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:260
+[16-Oct-2017 08:58:35 UTC] PHP   9. PMA\libraries\navigation\Navigation->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:425
+[16-Oct-2017 08:58:35 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 08:58:35 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 08:58:35 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:301
+[16-Oct-2017 08:58:35 UTC] PHP  13. include() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:414
+[16-Oct-2017 08:58:35 UTC] PHP  14. require_once() /home/ubuntu/workspace/phpmyadmin/libraries/navigation/NavigationTree.php:20
+[16-Oct-2017 08:58:56 UTC] PHP Fatal error:  Call to a member function isSuperuser() on a non-object in /home/ubuntu/workspace/phpmyadmin/libraries/check_user_privileges.lib.php on line 15
+[16-Oct-2017 08:58:56 UTC] PHP Stack trace:
+[16-Oct-2017 08:58:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/phpmyadmin/setup/index.php:0
+[16-Oct-2017 08:58:56 UTC] PHP   2. require() /home/ubuntu/workspace/phpmyadmin/setup/index.php:61
+[16-Oct-2017 08:58:56 UTC] PHP   3. PMA_Process_formset() /home/ubuntu/workspace/phpmyadmin/setup/frames/servers.inc.php:52
+[16-Oct-2017 08:58:56 UTC] PHP   4. PMA_generateHeader303() /home/ubuntu/workspace/phpmyadmin/setup/lib/form_processing.lib.php:35
+[16-Oct-2017 08:58:56 UTC] PHP   5. PMA\libraries\Response->response() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:0
+[16-Oct-2017 08:58:56 UTC] PHP   6. PMA\libraries\Response->_htmlResponse() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:432
+[16-Oct-2017 08:58:56 UTC] PHP   7. PMA\libraries\Response->_getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:273
+[16-Oct-2017 08:58:56 UTC] PHP   8. PMA\libraries\Header->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:260
+[16-Oct-2017 08:58:56 UTC] PHP   9. PMA\libraries\navigation\Navigation->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:425
+[16-Oct-2017 08:58:56 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 08:58:56 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 08:58:56 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:301
+[16-Oct-2017 08:58:56 UTC] PHP  13. include() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:414
+[16-Oct-2017 08:58:56 UTC] PHP  14. require_once() /home/ubuntu/workspace/phpmyadmin/libraries/navigation/NavigationTree.php:20
+[16-Oct-2017 09:06:29 UTC] PHP Fatal error:  Call to a member function isSuperuser() on a non-object in /home/ubuntu/workspace/phpmyadmin/libraries/check_user_privileges.lib.php on line 15
+[16-Oct-2017 09:06:29 UTC] PHP Stack trace:
+[16-Oct-2017 09:06:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/phpmyadmin/setup/index.php:0
+[16-Oct-2017 09:06:29 UTC] PHP   2. require() /home/ubuntu/workspace/phpmyadmin/setup/index.php:61
+[16-Oct-2017 09:06:29 UTC] PHP   3. PMA_Process_formset() /home/ubuntu/workspace/phpmyadmin/setup/frames/servers.inc.php:52
+[16-Oct-2017 09:06:29 UTC] PHP   4. PMA_generateHeader303() /home/ubuntu/workspace/phpmyadmin/setup/lib/form_processing.lib.php:35
+[16-Oct-2017 09:06:29 UTC] PHP   5. PMA\libraries\Response->response() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:0
+[16-Oct-2017 09:06:29 UTC] PHP   6. PMA\libraries\Response->_htmlResponse() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:432
+[16-Oct-2017 09:06:29 UTC] PHP   7. PMA\libraries\Response->_getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:273
+[16-Oct-2017 09:06:29 UTC] PHP   8. PMA\libraries\Header->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:260
+[16-Oct-2017 09:06:29 UTC] PHP   9. PMA\libraries\navigation\Navigation->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:425
+[16-Oct-2017 09:06:29 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:06:29 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:06:29 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:301
+[16-Oct-2017 09:06:29 UTC] PHP  13. include() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:414
+[16-Oct-2017 09:06:29 UTC] PHP  14. require_once() /home/ubuntu/workspace/phpmyadmin/libraries/navigation/NavigationTree.php:20
+[16-Oct-2017 09:10:44 UTC] PHP Fatal error:  Call to a member function isSuperuser() on a non-object in /home/ubuntu/workspace/phpmyadmin/libraries/check_user_privileges.lib.php on line 15
+[16-Oct-2017 09:10:44 UTC] PHP Stack trace:
+[16-Oct-2017 09:10:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/phpmyadmin/setup/index.php:0
+[16-Oct-2017 09:10:44 UTC] PHP   2. require() /home/ubuntu/workspace/phpmyadmin/setup/index.php:61
+[16-Oct-2017 09:10:44 UTC] PHP   3. PMA_Process_formset() /home/ubuntu/workspace/phpmyadmin/setup/frames/servers.inc.php:52
+[16-Oct-2017 09:10:44 UTC] PHP   4. PMA_generateHeader303() /home/ubuntu/workspace/phpmyadmin/setup/lib/form_processing.lib.php:35
+[16-Oct-2017 09:10:44 UTC] PHP   5. PMA\libraries\Response->response() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:0
+[16-Oct-2017 09:10:44 UTC] PHP   6. PMA\libraries\Response->_htmlResponse() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:432
+[16-Oct-2017 09:10:44 UTC] PHP   7. PMA\libraries\Response->_getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:273
+[16-Oct-2017 09:10:44 UTC] PHP   8. PMA\libraries\Header->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:260
+[16-Oct-2017 09:10:44 UTC] PHP   9. PMA\libraries\navigation\Navigation->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:425
+[16-Oct-2017 09:10:44 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:10:44 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:10:44 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:301
+[16-Oct-2017 09:10:44 UTC] PHP  13. include() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:414
+[16-Oct-2017 09:10:44 UTC] PHP  14. require_once() /home/ubuntu/workspace/phpmyadmin/libraries/navigation/NavigationTree.php:20
+[16-Oct-2017 09:16:11 UTC] PHP Fatal error:  Call to a member function isSuperuser() on a non-object in /home/ubuntu/workspace/phpmyadmin/libraries/check_user_privileges.lib.php on line 15
+[16-Oct-2017 09:16:11 UTC] PHP Stack trace:
+[16-Oct-2017 09:16:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/phpmyadmin/setup/index.php:0
+[16-Oct-2017 09:16:11 UTC] PHP   2. require() /home/ubuntu/workspace/phpmyadmin/setup/index.php:61
+[16-Oct-2017 09:16:11 UTC] PHP   3. PMA_Process_formset() /home/ubuntu/workspace/phpmyadmin/setup/frames/servers.inc.php:52
+[16-Oct-2017 09:16:11 UTC] PHP   4. PMA_generateHeader303() /home/ubuntu/workspace/phpmyadmin/setup/lib/form_processing.lib.php:35
+[16-Oct-2017 09:16:11 UTC] PHP   5. PMA\libraries\Response->response() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:0
+[16-Oct-2017 09:16:11 UTC] PHP   6. PMA\libraries\Response->_htmlResponse() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:432
+[16-Oct-2017 09:16:11 UTC] PHP   7. PMA\libraries\Response->_getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:273
+[16-Oct-2017 09:16:11 UTC] PHP   8. PMA\libraries\Header->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Response.php:260
+[16-Oct-2017 09:16:11 UTC] PHP   9. PMA\libraries\navigation\Navigation->getDisplay() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:425
+[16-Oct-2017 09:16:11 UTC] PHP  10. spl_autoload_call() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:16:11 UTC] PHP  11. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/phpmyadmin/libraries/Header.php:38
+[16-Oct-2017 09:16:11 UTC] PHP  12. Composer\Autoload\includeFile() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:301
+[16-Oct-2017 09:16:11 UTC] PHP  13. include() /home/ubuntu/workspace/phpmyadmin/vendor/composer/ClassLoader.php:414
+[16-Oct-2017 09:16:11 UTC] PHP  14. require_once() /home/ubuntu/workspace/phpmyadmin/libraries/navigation/NavigationTree.php:20
